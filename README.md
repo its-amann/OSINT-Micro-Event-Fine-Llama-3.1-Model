@@ -3,8 +3,8 @@
 - **Note** : Notebook preview may not be available due to this colab notebook version is not supported in Github. May be this is a bug, For viewing the code you can download the notebook. Thankyou
 
 **Problem** : 
-``
-Given short, noisy “open-source posts” (tweet/WhatsApp-forward/news blurb length, incl. Hinglish/Urdu/English code-mix), the model must output a single JSON describing an actionable event.
+
+``Given short, noisy “open-source posts” (tweet/WhatsApp-forward/news blurb length, incl. Hinglish/Urdu/English code-mix), the model must output a single JSON describing an actionable event.
 {
   "event_type": "protest|rally|riot|strike|curfew|threat|rumor",
   "when": "today|tomorrow|D+N",
@@ -13,9 +13,8 @@ Given short, noisy “open-source posts” (tweet/WhatsApp-forward/news blurb le
   "confidence": 0.0-1.0,
   "priority": 0|1|2|3,
   "rationale": "1-2 sentence why"
-}
+}``
 
-``
 
 ## Data card  :
 
@@ -99,3 +98,4 @@ tokenize_dataset = dataset.map(tokenize_func,batched=True,remove_columns=remove_
 
 
 #### Thankyou
+
