@@ -1,4 +1,21 @@
-# Problem : OSINT Micro‑Event → JSON
+# Problem : OSINT Micro‑Event → JSON 
+
+- **Note** : Notebook preview may not be available due to this colab notebook version is not supported in Github. May be this is a bug, For viewing the code you can download the notebook. Thankyou
+
+**Problem** : 
+``
+Given short, noisy “open-source posts” (tweet/WhatsApp-forward/news blurb length, incl. Hinglish/Urdu/English code-mix), the model must output a single JSON describing an actionable event.
+{
+  "event_type": "protest|rally|riot|strike|curfew|threat|rumor",
+  "when": "today|tomorrow|D+N",
+  "where": "city_or_district",
+  "actors": ["list","of","actors"],
+  "confidence": 0.0-1.0,
+  "priority": 0|1|2|3,
+  "rationale": "1-2 sentence why"
+}
+
+``
 
 ## Data card  :
 
@@ -79,5 +96,6 @@ tokenize_dataset = dataset.map(tokenize_func,batched=True,remove_columns=remove_
 **Trainable Parameters** : ``trainable params: 69,206,016 || all params: 1,305,020,416 || trainable%: 5.3031``
 
 **Training Results** : ``TrainOutput(global_step=120, training_loss=2.2029616117477415, metrics={'train_runtime': 320.6775, 'train_samples_per_second': 1.497, 'train_steps_per_second': 0.374, 'total_flos': 412196064313344.0, 'train_loss': 2.2029616117477415, 'epoch': 2.26})``
+
 
 #### Thankyou
