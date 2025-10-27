@@ -1,0 +1,161 @@
+[
+  {
+    "input": "Email threat received by Local Police kal subah 6am at Srinagar; bomb squad on standby. update call 1800-894-000",
+    "output": {
+      "actors": [
+        "Local Police"
+      ],
+      "confidence": 0.87,
+      "event_type": "threat",
+      "priority": 3,
+      "rationale": "Post mentions email threat from Local Police in Kal. Time phrase maps to 'D+2', so label is threat",
+      "when": "D+2",
+      "where": "Kal"
+    }
+  },
+  {
+    "input": "Student Union ne sector-5 collectorate ke bahar mrach; \u0915\u0932 \u0936\u093e\u092e. permissions mil gayi? details: jagah fix hai par permission nahi mili call 9885548686",
+    "output": {
+      "actors": [
+        "Student Union"
+      ],
+      "confidence": 0.87,
+      "event_type": "protest",
+      "priority": 2,
+      "rationale": "Post mentions sit-in dharna by Student Union in neighbourhood of School No. 1 in Sector-5. Time phrase maps to 'today', so label is protest",
+      "when": "today",
+      "where": "Sector-5"
+    }
+  },
+  {
+    "input": "Section 144 imposed in Guwahati \u0930\u0935\u093f\u0935\u093e\u0930 3 \u092c\u091c\u0947; official order out. details: jagah fix hai par permission nahi mili",
+    "output": {
+      "actors": [
+        "District Admin",
+        "Local Police"
+      ],
+      "confidence": 0.87,
+      "event_type": "curfew",
+      "priority": 2,
+      "rationale": "Post mentions curfew by District Admin in Guwahati. Time phrase maps to 'D+4', so label is curfew",
+      "when": "D+4",
+      "where": "Guwahati"
+    }
+  },
+  {
+    "input": "Blast threat call at Moradabad station aaj shaam 6 baje; security alert issued. details: jagah fix hai par permission nahi mili \u0938\u0942\u091a\u0928\u093e \u092e\u093f\u0932\u0940 par confirm nahi. alert issued ahead of rally update call 011-985665 more: [follow for more]",
+    "output": {
+      "actors": [
+        "Local Police"
+      ],
+      "confidence": 0.87,
+      "event_type": "threat",
+      "priority": 3,
+      "rationale": "Post mentions blast threat by Local Police in Moradabad. Time phrase maps to 'tomorrow', so label is threat",
+      "when": "tomorrow",
+      "where": "Moradabad"
+    }
+  },
+  {
+    "input": "Threat call flagged; sector-10 mall aaj 15:00; police checking bags. alert more: [follow for more]",
+    "output": {
+      "actors": [
+        "Local Police"
+      ],
+      "confidence": 0.8200000000000001,
+      "event_type": "threat",
+      "priority": 3,
+      "rationale": "Post mentions bag search by Local Police in Sector-10. Time phrase maps to 'today', so label is threat",
+      "when": "today",
+      "where": "Sector-10"
+    }
+  },
+  {
+    "input": "Dharna at Amritsar bus stand by College Students aaj dopahar 2 baje. crowd expected. details: jagah fix hai par permission nahi mili",
+    "output": {
+      "actors": [
+        "College Students"
+      ],
+      "confidence": 0.87,
+      "event_type": "protest",
+      "priority": 3,
+      "rationale": "Post mentions sit-in dharnay by College Students in Amritsar. Time phrase maps to 'today', so label is protest",
+      "when": "today",
+      "where": "Amritsar"
+    }
+  },
+  {
+    "input": "Communal tension flared in Mumbai aaj dopahar 2 baje; lathi charge reported. situation tense.",
+    "output": {
+      "actors": [
+        "Local Police"
+      ],
+      "confidence": 0.87,
+      "event_type": "riot",
+      "priority": 3,
+      "rationale": "Post mentions communal tension by Local Police in Mumbai. Time phrase maps to 'tomorrow', so label is riot",
+      "when": "tomorrow",
+      "where": "Mumbai"
+    }
+  },
+  {
+    "input": "Stone pelting reported in Mangaluru, lanes jam. Sunday 6 PM after clash. police on site. news",
+    "output": {
+      "actors": [
+        "Local Police"
+      ],
+      "confidence": 0.87,
+      "event_type": "riot",
+      "priority": 3,
+      "rationale": "Post mentions stone pelting by Local Police in Mangaluru. Time phrase maps to 'D+5', so label is riot",
+      "when": "D+5",
+      "where": "Mangaluru"
+    }
+  },
+  {
+    "input": "Public meeting (sabhaa) at Bengaluru called by Party B this Friday 4 PM, loudspeakers permit ok. details: jagah fix hai par permission nahi mili call 011-985665 more:",
+    "output": {
+      "actors": [
+        "Party A"
+      ],
+      "confidence": 0.87,
+      "event_type": "rally",
+      "priority": 2,
+      "rationale": "Post mentions public rally by Party B in Bengaluru. Time phrase maps to 'D+5', so label is rally",
+      "when": "D+5",
+      "where": "Bengaluru"
+    }
+  },
+  {
+    "input": "Farmers Front ne rural-1 collectorate ke bahar nara baazi; aaj dopahar 2 baje. permissions mil gayi? traffic call 985548854",
+    "output": {
+      "actors": [
+        "Farmers"
+      ],
+      "confidence": 0.820000001,
+      "event_type": "strike",
+      "priority": 3,
+      "rationale": "Post mentions strike by Farmers in Rural-1. Time phrase maps to 'tomorrow', so label is strike",
+      "when": "tomorrow",
+      "where": "Rural-1"
+    }
+  },
+  {
+    "input": "Dharna at sector-4 bus stand by Traders Assoc. aaj dopahar 2 baje. crowd expected. details: jagah fix hai par permission nahi mili update",
+    "output": null
+  },
+  {
+    "input": "Forwarded msg says bandh kal subah 6am at Udupi, but no official. hearsay only. commute",
+    "output": {
+      "actors": [
+        "Local Police"
+      ],
+      "confidence": 0.2,
+      "event_type": "rumor",
+      "priority": 1,
+      "rationale": "Post mentions local police in Udupi by Local Police. Time phrase maps to 'tomorrow', so label is rumor",
+      "when": "tomorrow",
+      "where": "Udupi"
+    }
+  }
+]
